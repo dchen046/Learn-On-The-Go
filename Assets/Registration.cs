@@ -1,32 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Login : MonoBehaviour
+public class Registration : MonoBehaviour
 {
     public InputField usernameInput;
     public InputField passwordInput;
-    public Button loginButton;
     public Button regButton;
+    public Button backButton;
     // Start is called before the first frame update
     void Start()
     {
-       loginButton.onClick.AddListener(() => 
-       {
-            /**
-             * When clicked make sure both inputs are there
-             * Then check the database to see if it exists
-             * If exists then go to next scene
-             * else error message
-             */
-            print("login pressed");
-       });
-
-       regButton.onClick.AddListener(() =>
-       {
+        regButton.onClick.AddListener(() =>
+        {
 
             /**
              * Make sure both inputs are there
@@ -34,10 +22,21 @@ public class Login : MonoBehaviour
              * If its not then register the person and message
              * Else error message popup
              */
-           print("register pressed");
-           SceneManager.LoadScene("RegisterScene");
-       });
-    }
-    
+            print("register pressed");
+        });
 
+        backButton.onClick.AddListener(() =>
+        {
+
+            /**
+             * Make sure both inputs are there
+             * Then check if username is already registered 
+             * If its not then register the person and message
+             * Else error message popup
+             */
+            print("back pressed");
+            SceneManager.LoadScene("LoginScene");
+        });
+
+    }
 }
