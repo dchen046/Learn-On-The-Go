@@ -10,5 +10,11 @@ EditorBuildSettings:
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/RegisterScene.unity
-    guid: d7d1953d1a2e11d4a93c6e5d20c25968
+    guid: 595d1730f58512d458eaad77d9a87415
+  - enabled: 1
+    path: Assets/Scenes/CourseScene.unity
+    guid: 9215d229fa879904c9740493d802be32
+  - enabled: 1
+    path: Assets/Scenes/TopicScene.unity
+    guid: a3acdfe8d3e47d44681637eb12f30567
   m_configObjects: {}
