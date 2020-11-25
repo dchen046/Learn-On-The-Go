@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class Main : MonoBehaviour
 {
+
+    public static Main Instance;
+    public Web Web;
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Instance = this;
+        Web = GetComponent<Web>();
     }
 }

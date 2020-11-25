@@ -13,6 +13,12 @@ public class Registration : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        setRegisterButton();
+        setBackButton();
+    }
+
+    private void setRegisterButton()
+    {
         regButton.onClick.AddListener(() =>
         {
 
@@ -22,9 +28,13 @@ public class Registration : MonoBehaviour
              * If its not then register the person and message
              * Else error message popup
              */
+            StartCoroutine(Main.Instance.Web.Register(usernameInput.text, passwordInput.text));
             print("register pressed");
         });
+    }
 
+    private void setBackButton()
+    {
         backButton.onClick.AddListener(() =>
         {
 
@@ -37,6 +47,5 @@ public class Registration : MonoBehaviour
             print("back pressed");
             SceneManager.LoadScene("LoginScene");
         });
-
     }
 }
