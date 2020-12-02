@@ -7,36 +7,6 @@ using UnityEngine.SceneManagement;
 // This class will be used to establish the connection and have some functions to interact with database
 public class Web : MonoBehaviour
 {
-    void Start()
-    {
-        // A correct website page.
-        // StartCoroutine(GetRequest("http://localhost/scripts/Auth.php"));
-        // StartCoroutine(Register("test", "test"));
-
-    }
-
-    //    IEnumerator GetRequest(string uri)
-    //    {
-    //        using (UnityWebRequest webRequest = UnityWebRequest.Get(uri))
-    //        {
-    //            // Request and wait for the desired page.
-    //            yield return webRequest.SendWebRequest();
-
-    //            // string[] pages = uri.Split('/');
-    //            // int page = pages.Length - 1;
-
-    //            string[] users = uri.Split('')
-
-    //            if (webRequest.isNetworkError)
-    //            {
-    //                Debug.Log(pages[page] + ": Error: " + webRequest.error);
-    //            }
-    //            else
-    //            {
-    //                Debug.Log(pages[page] + ":\nReceived: " + webRequest.downloadHandler.text);
-    //            }
-    //        }
-    //    }
 
     public IEnumerator Login(string username, string password)
     {

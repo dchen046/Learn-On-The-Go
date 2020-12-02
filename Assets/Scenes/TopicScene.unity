@@ -927,7 +927,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Topic 1
+  m_Text: General
 --- !u!222 &1158191401
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1005,7 +1005,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Topic 2
+  m_Text: Glycolysis
 --- !u!222 &1302907359
 CanvasRenderer:
   m_ObjectHideFlags: 0

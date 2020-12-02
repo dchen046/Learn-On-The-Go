@@ -34,13 +34,6 @@ public class Topics : MonoBehaviour
     {
         backButton.onClick.AddListener(() =>
         {
-
-            /**
-             * Make sure both inputs are there
-             * Then check if username is already registered 
-             * If its not then register the person and message
-             * Else error message popup
-             */
             print("back pressed");
             SceneManager.LoadScene("CourseScene");
         });
