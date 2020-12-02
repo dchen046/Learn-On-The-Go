@@ -21,13 +21,6 @@ public class Registration : MonoBehaviour
     {
         regButton.onClick.AddListener(() =>
         {
-
-            /**
-             * Make sure both inputs are there
-             * Then check if username is already registered 
-             * If its not then register the person and message
-             * Else error message popup
-             */
             StartCoroutine(Main.Instance.Web.Register(usernameInput.text, passwordInput.text));
             print("register pressed");
         });
@@ -37,13 +30,6 @@ public class Registration : MonoBehaviour
     {
         backButton.onClick.AddListener(() =>
         {
-
-            /**
-             * Make sure both inputs are there
-             * Then check if username is already registered 
-             * If its not then register the person and message
-             * Else error message popup
-             */
             print("back pressed");
             SceneManager.LoadScene("LoginScene");
         });
