@@ -17,6 +17,7 @@ public class Topics : MonoBehaviour
 
         setLogoutButton();
         setBackButton();
+        setTopicButtons();
         
     }
 
@@ -41,6 +42,22 @@ public class Topics : MonoBehaviour
 
     private void setTopicButtons()
     {
+        topic1.onClick.AddListener(() =>
+        {
+            // TODO
+            print("topic 1 pressed");
+            SceneManager.LoadScene("FillInBlank2");
+        });
 
+        topic2.onClick.AddListener(() =>
+        {
+            // TODO
+            print("topic 2 pressed");
+            SceneManager.LoadScene("snake1");
+        });
+
+
+        // TODO set up topic 3
+        
     }
 }

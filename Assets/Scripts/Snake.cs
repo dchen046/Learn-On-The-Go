@@ -54,7 +54,7 @@ public class Snake : MonoBehaviour
     {
         WWWForm form = new WWWForm();
         form.AddField("topic", "Glycolysis");
-        UnityWebRequest request = UnityWebRequest.Post("http://localhost/seniorDesign/dbConn.php", form);
+        UnityWebRequest request = UnityWebRequest.Post("http://localhost/scripts/dbConn.php", form);
         yield return request.SendWebRequest();
         qnaList = request.downloadHandler.text.Split('\n');
         eachquestion = qnaList[currQuestion].Split('\t');
