@@ -13,14 +13,12 @@ public class Courses : MonoBehaviour
     {
         biochemButton.onClick.AddListener(() =>
         {
-            // TODO
             print("biochem pressed");
             SceneManager.LoadScene("TopicScene");
         });
 
         LogoutButton.onClick.AddListener(() =>
         {
-            // TODO
             print("logout pressed");
             SceneManager.LoadScene("LoginScene");
         });

@@ -7,6 +7,7 @@ using System.Security.Cryptography;
 using System.Collections.Specialized;
 using UnityEngine.UI;
 using UnityEngine.Networking;
+using UnityEngine.SceneManagement;
 
 
 public class Snake : MonoBehaviour
@@ -24,6 +25,7 @@ public class Snake : MonoBehaviour
     public bool ate = false;
     public int currlives = 3;
     public int currScore = 0;
+    public Button backButton;
 
     // Tail Prefab
     public GameObject tailPrefab;
@@ -77,6 +79,12 @@ public class Snake : MonoBehaviour
         InvokeRepeating("Move", 0.15f, 0.15f);
         apple1 = SpawnApple(foodPrefab);
         apple2 = SpawnApple(foodPrefab2);
+
+        backButton.onClick.AddListener(() =>
+        {
+            print("back pressed");
+            SceneManager.LoadScene("TopicScene");
+        });
     }
 
 

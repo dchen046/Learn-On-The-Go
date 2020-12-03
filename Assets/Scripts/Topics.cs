@@ -25,7 +25,6 @@ public class Topics : MonoBehaviour
     {
         LogoutButton.onClick.AddListener(() =>
         {
-            // TODO
             print("logout pressed");
             SceneManager.LoadScene("LoginScene");
         });
@@ -44,14 +43,12 @@ public class Topics : MonoBehaviour
     {
         topic1.onClick.AddListener(() =>
         {
-            // TODO
             print("topic 1 pressed");
             SceneManager.LoadScene("FillInBlank2");
         });
 
         topic2.onClick.AddListener(() =>
         {
-            // TODO
             print("topic 2 pressed");
             SceneManager.LoadScene("snake1");
         });
