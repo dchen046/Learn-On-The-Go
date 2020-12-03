@@ -689,7 +689,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Topics
+  m_Text: Learning Type
 --- !u!222 &888115201
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1005,7 +1005,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Glycolysis
+  m_Text: Kinesthetic
 --- !u!222 &1302907359
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1027,7 +1027,7 @@ GameObject:
   - component: {fileID: 1387736741}
   - component: {fileID: 1387736740}
   m_Layer: 5
-  m_Name: Topic 1
+  m_Name: Type 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1323,7 +1323,7 @@ GameObject:
   - component: {fileID: 1512233132}
   - component: {fileID: 1512233131}
   m_Layer: 5
-  m_Name: Topic 3
+  m_Name: Type 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1561,7 +1561,7 @@ GameObject:
   - component: {fileID: 1981530840}
   - component: {fileID: 1981530839}
   m_Layer: 5
-  m_Name: Topic 2
+  m_Name: Type 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
