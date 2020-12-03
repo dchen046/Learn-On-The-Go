@@ -182,6 +182,7 @@ public class GameManager : MonoBehaviour {
     //quit the game
     public void QuitGame()
     {
+        SceneManager.LoadScene("TopicScene");
         Application.Quit();
     }
     //set high score - update when needed

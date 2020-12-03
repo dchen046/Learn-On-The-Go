@@ -44,7 +44,7 @@ public class Topics : MonoBehaviour
         topic1.onClick.AddListener(() =>
         {
             print("topic 1 pressed");
-            SceneManager.LoadScene("FillInBlank2");
+            SceneManager.LoadScene("FillInBlank");
         });
 
         topic2.onClick.AddListener(() =>
