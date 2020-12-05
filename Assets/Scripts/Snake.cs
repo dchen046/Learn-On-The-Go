@@ -26,6 +26,7 @@ public class Snake : MonoBehaviour
     public int currlives = 3;
     public int currScore = 0;
     public Button backButton;
+    public Button replayButton;
 
     // Tail Prefab
     public GameObject tailPrefab;
@@ -85,6 +86,13 @@ public class Snake : MonoBehaviour
             print("back pressed");
             SceneManager.LoadScene("TopicScene");
         });
+
+        replayButton.onClick.AddListener(() =>
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        });
+
+
     }
 
 
