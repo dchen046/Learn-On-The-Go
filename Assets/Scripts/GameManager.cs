@@ -182,8 +182,8 @@ public class GameManager : MonoBehaviour {
     //quit the game
     public void QuitGame()
     {
+        AudioManager.Instance.StopSound("GameMusic");
         SceneManager.LoadScene("TopicScene");
-        Application.Quit();
     }
     //set high score - update when needed
     private void SetHighscore()
