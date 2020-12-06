@@ -33,7 +33,7 @@ public class Crossword1 : MonoBehaviour
     void Start(){
         question = new string[124] {"C","O","N","S","E","N","S","U","S","S","E","Q","U","E","N","C","E","S","P","E","R","M","A","T","O","G","E",
         "N","E","S","I","S","M","E","T","A","P","H","A","S","E","A","M","Y","L","A","S","E","B","I","N","A","R","Y","F","I","S","S","I","O","N",
-        "S","E","P","T","A","V","I","R","O","I","D","R","O","T","N","P","U","P","S","A","S","I","N","P","O","P","O","R","E","P","T","M",
+        "S","E","P","T","A","V","I","R","O","I","D","R","O","T","N","P","U","P","S","A","S","I","N","D","O","P","O","R","E","P","T","M",
         "I","L","E","T","M","U","T","T","O","N","E","C","T","O","D","R","M","R","T","I","N","C","Y","M","E","P","S","I",
         "O","E","O"};
         player_answer = new string[124];

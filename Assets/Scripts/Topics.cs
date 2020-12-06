@@ -54,7 +54,11 @@ public class Topics : MonoBehaviour
         });
 
 
-        // TODO set up topic 3
-        
+        topic3.onClick.AddListener(() =>
+        {
+            print("topic 3 pressed");
+            SceneManager.LoadScene("Crossword_mainmenu");
+        });
+
     }
 }

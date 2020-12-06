@@ -21,8 +21,8 @@ public class Registration : MonoBehaviour
     {
         regButton.onClick.AddListener(() =>
         {
-            StartCoroutine(Main.Instance.Web.Register(usernameInput.text, passwordInput.text));
             print("register pressed");
+            StartCoroutine(Main.Instance.Web.Register(usernameInput.text, passwordInput.text));
         });
     }
 

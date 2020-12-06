@@ -190,7 +190,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Biology
+  m_Text: Biochemistry II
 --- !u!222 &432303840
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -559,7 +559,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Mainmenu
+  m_Text: Back
 --- !u!222 &898846179
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1187,7 +1187,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Biochemistry
+  m_Text: Biochemistry I
 --- !u!222 &1834090367
 CanvasRenderer:
   m_ObjectHideFlags: 0

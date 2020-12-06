@@ -218,7 +218,7 @@ public class Snake : MonoBehaviour
             else
             {
                 EndGame.GetComponent<Text>().text = "Level Completed!";
-                Application.Quit();
+                // Application.Quit();
                 print("Colliding here");
                 endgame = true;
             }
@@ -228,7 +228,7 @@ public class Snake : MonoBehaviour
         else
         {
             EndGame.GetComponent<Text>().text = "You Lost!";
-            Application.Quit();
+            // Application.Quit();
             print("Colliding here");
             endgame = true;
         }
